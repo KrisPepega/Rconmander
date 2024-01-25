@@ -1,0 +1,424 @@
+{
+    "commands": {
+        "restart_game": {
+            "cmd": "mp_restartgame",
+            "kwargs": [],
+            "args": [
+                1
+            ]
+        },
+        "set_round_time": {
+            "cmd": "mp_roundtime",
+            "kwargs": [
+                {
+                    "name": "value",
+                    "type": "int"
+                }
+            ],
+            "args": []
+        },
+        "turn_on_warmup": {
+            "cmd": "mp_warmup_start",
+            "kwargs": [],
+            "args": []
+        },
+        "turn_off_warmup": {
+            "cmd": "mp_warmup_end",
+            "kwargs": [],
+            "args": []
+        },
+        "set_warmup_time": {
+            "cmd": "mp_warmuptime",
+            "kwargs": [
+                {
+                    "name": "value",
+                    "type": "int"
+                }
+            ],
+            "args": []
+        },
+        "add_bot_ct": {
+            "cmd": "bot_add_ct",
+            "kwargs": [],
+            "args": []
+        },
+        "add_bot_t": {
+            "cmd": "bot_add_t",
+            "kwargs": [],
+            "args": []
+        },
+        "kick_bots": {
+            "cmd": "bot_kick",
+            "kwargs": [],
+            "args": []
+        },
+        "set_max_money": {
+            "cmd": "mp_maxmoney",
+            "kwargs": [
+                {
+                    "name": "value",
+                    "type": "int"
+                }
+            ],
+            "args": []
+        },
+        "set_start_money": {
+            "cmd": "mp_startmoney",
+            "kwargs": [
+                {
+                    "name": "value",
+                    "type": "int"
+                }
+            ],
+            "args": []
+        },
+        "set_team_limit": {
+            "cmd": "mp_limitteams",
+            "kwargs": [
+                {
+                    "name": "value",
+                    "type": "int"
+                }
+            ],
+            "args": []
+        },
+        "turn_off_team_limit": {
+            "cmd": "mp_limitteams",
+            "kwargs": [],
+            "args": [
+                0
+            ]
+        },
+        "auto_team_balance_off": {
+            "cmd": "mp_autoteambalance",
+            "kwargs": [],
+            "args": [
+                0
+            ]
+        },
+        "auto_team_balance_on": {
+            "cmd": "mp_autoteambalance",
+            "kwargs": [],
+            "args": [
+                1
+            ]
+        },
+        "set_max_rounds": {
+            "cmd": "mp_maxrounds",
+            "kwargs": [
+                {
+                    "name": "value",
+                    "type": "int"
+                }
+            ],
+            "args": []
+        },
+        "set_time_limit": {
+            "cmd": "mp_timelimit",
+            "kwargs": [
+                {
+                    "name": "value",
+                    "type": "int"
+                }
+            ],
+            "args": []
+        },
+        "set_bomb_timer": {
+            "cmd": "mp_c4timer",
+            "kwargs": [
+                {
+                    "name": "value",
+                    "type": "int"
+                }
+            ],
+            "args": []
+        },
+        "set_freeze_time": {
+            "cmd": "mp_freezetime",
+            "kwargs": [
+                {
+                    "name": "value",
+                    "type": "int"
+                }
+            ],
+            "args": []
+        },
+        "set_buy_time": {
+            "cmd": "mp_buytime",
+            "kwargs": [
+                {
+                    "name": "value",
+                    "type": "int"
+                }
+            ],
+            "args": []
+        },
+        "buy_anywhere_off": {
+            "cmd": "mp_buy_anywhere",
+            "kwargs": [],
+            "args": [
+                0
+            ]
+        },
+        "buy_anywhere_on": {
+            "cmd": "mp_buy_anywhere",
+            "kwargs": [],
+            "args": [
+                1
+            ]
+        },
+        "set_grenade_limit": {
+            "cmd": "ammo_grenade_limit_total",
+            "kwargs": [
+                {
+                    "name": "value",
+                    "type": "int"
+                }
+            ],
+            "args": []
+        },
+        "change_level": {
+            "cmd": "changelevel",
+            "kwargs": [
+                {
+                    "name": "map_name",
+                    "type": "str"
+                }
+            ],
+            "args": []
+        },
+        "force_chase_cam_on": {
+            "cmd": "mp_forcechasecam",
+            "kwargs": [],
+            "args": [
+                1
+            ]
+        },
+        "force_chase_cam_off": {
+            "cmd": "mp_forcechasecam",
+            "kwargs": [],
+            "args": [
+                0
+            ]
+        },
+        "friendly_fire_on": {
+            "cmd": "mp_friendlyfire",
+            "kwargs": [],
+            "args": [
+                1
+            ]
+        },
+        "friendly_fire_off": {
+            "cmd": "mp_friendlyfire",
+            "kwargs": [],
+            "args": [
+                0
+            ]
+        },
+        "tk_punish_on": {
+            "cmd": "mp_tkpunish",
+            "kwargs": [],
+            "args": [
+                1
+            ]
+        },
+        "tk_punish_off": {
+            "cmd": "mp_tkpunish",
+            "kwargs": [],
+            "args": [
+                0
+            ]
+        },
+        "restart_round": {
+            "cmd": "sv_restartround",
+            "kwargs": [],
+            "args": []
+        },
+        "get_time_left": {
+            "cmd": "timeleft",
+            "kwargs": [],
+            "args": []
+        },
+        "auto_kick_on": {
+            "cmd": "mp_autokick",
+            "kwargs": [],
+            "args": [
+                1
+            ]
+        },
+        "auto_kick_off": {
+            "cmd": "mp_autokick",
+            "kwargs": [],
+            "args": [
+                0
+            ]
+        },
+        "set_chat_time": {
+            "cmd": "mp_chattime",
+            "kwargs": [
+                {
+                    "name": "value",
+                    "type": "int"
+                }
+            ],
+            "args": []
+        },
+        "flashlight_on": {
+            "cmd": "mp_flashlight",
+            "kwargs": [],
+            "args": [
+                1
+            ]
+        },
+        "flashlight_off": {
+            "cmd": "mp_flashlight",
+            "kwargs": [],
+            "args": [
+                0
+            ]
+        },
+        "footsteps_on": {
+            "cmd": "mp_footsteps",
+            "kwargs": [],
+            "args": [
+                1
+            ]
+        },
+        "footsteps_off": {
+            "cmd": "mp_footsteps",
+            "kwargs": [],
+            "args": [
+                1
+            ]
+        },
+        "set_win_limit": {
+            "cmd": "mp_winlimit",
+            "kwargs": [
+                {
+                    "name": "value",
+                    "type": "int"
+                }
+            ],
+            "args": []
+        },
+        "set_gravity": {
+            "cmd": "sv_gravity",
+            "kwargs": [
+                {
+                    "name": "value",
+                    "type": "int"
+                }
+            ],
+            "args": []
+        },
+        "set_rcon_ban_penalty": {
+            "cmd": "sv_rcon_banpenalty",
+            "kwargs": [
+                {
+                    "name": "value",
+                    "type": "int"
+                }
+            ],
+            "args": []
+        },
+        "set_rcon_max_failures": {
+            "cmd": "sv_rcon_maxfailures",
+            "kwargs": [
+                {
+                    "name": "value",
+                    "type": "int"
+                }
+            ],
+            "args": []
+        },
+        "set_rcon_min_failure_time": {
+            "cmd": "sv_rcon_minfailuretime",
+            "kwargs": [
+                {
+                    "name": "value",
+                    "type": "int"
+                }
+            ],
+            "args": []
+        },
+        "set_rcon_min_failures": {
+            "cmd": "sv_rcon_minfailures",
+            "kwargs": [
+                {
+                    "name": "value",
+                    "type": "int"
+                }
+            ],
+            "args": []
+        },
+        "kick_user": {
+            "cmd": "kick",
+            "kwargs": [
+                {
+                    "name": "user",
+                    "type": "str"
+                }
+            ],
+            "args": []
+        },
+        "ban_user": {
+            "cmd": "banid",
+            "kwargs": [
+                {
+                    "name": "minutes",
+                    "type": "int"
+                },
+                {
+                    "name": "userid",
+                    "type": "str"
+                }
+            ],
+            "args": []
+        },
+        "say_message": {
+            "cmd": "say",
+            "kwargs": [
+                {
+                    "name": "msg",
+                    "type": "str"
+                }
+            ],
+            "args": []
+        },
+        "list_users": {
+            "cmd": "users",
+            "kwargs": [],
+            "args": []
+        },
+        "set_server_password": {
+            "cmd": "sv_password",
+            "kwargs": [
+                {
+                    "name": "password",
+                    "type": "str"
+                }
+            ],
+            "args": []
+        },
+        "set_hostname": {
+            "cmd": "hostname",
+            "kwargs": [
+                {
+                    "name": "value",
+                    "type": "str"
+                }
+            ],
+            "args": []
+        },
+        "explode_user": {
+            "cmd": "explode",
+            "kwargs": [
+                {
+                    "name": "user",
+                    "type": "str"
+                }
+            ],
+            "args": []
+        }
+    }
+}
